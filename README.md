@@ -16,5 +16,14 @@ to make it output similar vectors for similar poses
 
 These are the various joints predicted by BlazePose for a given person
 
+![blazepose](https://raw.githubusercontent.com/TheSeriousProgrammer/Yoga_Pose_Detection/main/pose_tracking_full_body_landmarks.png)
 
+These predicted vectors vary if the person is rotated inspite of the pose remaining the same, hence a processed vector, which gives relative positioning between joints is taken
 
+The spacing between joints taken are highlighted below
+
+![relative joints](https://raw.githubusercontent.com/TheSeriousProgrammer/Yoga_Pose_Detection/main/distance_btw_joints_considered.png)
+
+This newly processed vector is immune to rotations, we can directly apply euclidian distance between reference samples and realtime feed to identify the concerned pose
+
+Video Demo :
