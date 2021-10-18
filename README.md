@@ -27,3 +27,5 @@ The spacing between joints taken are highlighted below
 This newly processed vector is immune to rotations, we can directly apply euclidian distance between reference samples and realtime feed to identify the concerned pose
 
 Video Demo :
+
+[Click To Watch Video Demo](https://raw.githubusercontent.com/TheSeriousProgrammer/Yoga_Pose_Detection/main/demo.mp4)
